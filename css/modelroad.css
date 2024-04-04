@@ -529,7 +529,7 @@ a:focus {
 .about_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .about_section .img-box img {
@@ -539,14 +539,14 @@ a:focus {
   padding: 10px;
   transform: translateY(-650px);
   transition: 5s; */
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  /* top: 50; */
   /* Initial position at the top */
-  left: 0;
+  /* left: 0; */
   /* Initial position at the left */
-  transition: 0s;
+  /* transition: 0s; */
   /* Add smooth transition effect */
-  transform: translateY(-1340px);
+  /* transform: translateY(-1340px); */
 }
 
 @media (max-width: 992px) {
